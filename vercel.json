@@ -1,12 +1,20 @@
 {
   "rewrites": [
+    { "source": "/", "has": [{ "type": "host", "value": "stmi-formation.fr" }], "destination": "/STMI.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "stmi-formation.fr" }], "destination": "/STMI.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "cdce-formation.fr" }], "destination": "/CDCE.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "cdce-formation.fr" }], "destination": "/CDCE.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "sima-formation.fr" }], "destination": "/SIMA.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "sima-formation.fr" }], "destination": "/SIMA.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "domk-digital.fr" }], "destination": "/DOMK.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "domk-digital.fr" }], "destination": "/DOMK.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "bana-digital.fr" }], "destination": "/BANA.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "bana-digital.fr" }], "destination": "/BANA.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "iyot-digital.fr" }], "destination": "/IYOT.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "iyot-digital.fr" }], "destination": "/IYOT.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "fecf-communication.fr" }], "destination": "/FECF.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "fecf-communication.fr" }], "destination": "/FECF.html" },
+    { "source": "/", "has": [{ "type": "host", "value": "tilo-communication.fr" }], "destination": "/TILO.html" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "tilo-communication.fr" }], "destination": "/TILO.html" }
   ]
 }
