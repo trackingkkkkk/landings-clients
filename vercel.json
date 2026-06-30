@@ -1,14 +1,12 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
   "rewrites": [
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?stmi-formation\\.fr" }],      "destination": "/STMI.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?cdce-formation\\.fr" }],      "destination": "/CDCE.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?sima-formation\\.fr" }],      "destination": "/SIMA.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?domk-digital\\.fr" }],        "destination": "/DOMK.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?bana-digital\\.fr" }],        "destination": "/BANA.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?iyot-digital\\.fr" }],        "destination": "/IYOT.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?fecf-communication\\.fr" }],  "destination": "/FECF.html" },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "(www\\.)?tilo-communication\\.fr" }],  "destination": "/TILO.html" }
+    { "source": "/:path*", "has": [{ "type": "host", "value": "stmi-formation.fr" }], "destination": "/STMI.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "cdce-formation.fr" }], "destination": "/CDCE.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "sima-formation.fr" }], "destination": "/SIMA.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "domk-digital.fr" }], "destination": "/DOMK.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "bana-digital.fr" }], "destination": "/BANA.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "iyot-digital.fr" }], "destination": "/IYOT.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "fecf-communication.fr" }], "destination": "/FECF.html" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "tilo-communication.fr" }], "destination": "/TILO.html" }
   ]
 }
